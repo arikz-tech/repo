@@ -9,6 +9,8 @@ public class TestThreadCheckArray {
 			int [] array = new int[num];
 			System.out.println("Enter numbers for array");
 			
+			//ArrayList
+			
 			for (int index = 0; index < num; index++) 
 				array[index] = input.nextInt();
 			

@@ -21,6 +21,7 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
+	//ArrayList
 	public int[] getArray() 
 	{
 		return array;
