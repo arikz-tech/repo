@@ -1,17 +1,28 @@
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Arikz
+ *
+ */
+
 public class ThreadCheckArray implements Runnable 
 {
 	private boolean flag;
 	private boolean [] winArray;
 	SharedData sd;
-	//ArrayList
 	ArrayList<Integer> array;
 	int b;
+	
+	/**
+	 * 
+	 * @param sd shared data contain list size
+	 */
 	
 	public ThreadCheckArray(SharedData sd) 
 	{
 		this.sd = sd;	
+		
 		synchronized (sd) 
 		{
 			array = sd.getArray();

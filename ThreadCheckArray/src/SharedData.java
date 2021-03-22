@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * @author Rostik
  * class to that holds shered data
@@ -53,7 +55,7 @@ public class SharedData
 	 * function to pull the array
 	 * @return the list of integers
 	 */
-	public ArrayList<integer> getArray() 
+	public ArrayList<Integer> getArray() 
 	{
 		return array;
 	}
