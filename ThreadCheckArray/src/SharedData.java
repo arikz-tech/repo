@@ -1,12 +1,24 @@
 /**
  * @author Rostik
+ * class to that holds shered data
  */
 public class SharedData 
 {
-	
+	/**
+	 * list of Integers
+	 */
 	private ArrayList<Integer> array;
+	/**
+	 * array indicating winnig idexes
+	 */
 	private boolean [] winArray;
+	/**
+	 * indicator 
+	 */
 	private boolean flag;
+	/**
+	 * number of elements in the list
+	 */
 	private final int b;
 	
 	/**
