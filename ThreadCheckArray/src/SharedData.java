@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 
 /**
+ * class to that holds shared data
  * @author Rostik
- * class to that holds shered data
+ * 
  */
 public class SharedData 
 {
@@ -11,7 +12,7 @@ public class SharedData
 	 */
 	private ArrayList<Integer> array;
 	/**
-	 * array indicating winnig idexes
+	 * array indicating winning indexes
 	 */
 	private boolean [] winArray;
 	/**

@@ -8,10 +8,25 @@ import java.util.ArrayList;
 
 public class ThreadCheckArray implements Runnable 
 {
+	/**
+	 *  flag that's indicating if the n-1 iteration is true
+	 */
 	private boolean flag;
+	/**
+	 *  variable that's holding the winning array
+	 */
 	private boolean [] winArray;
+	/**
+	 *  variable that's sharing data between the classes
+	 */
 	SharedData sd;
+	/**
+	 *  holds array of integers variables
+	 */
 	ArrayList<Integer> array;
+	/**
+	 * 	variable holding the expected value
+	 */
 	int b;
 	
 	/**
