@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * 
+ * Thread that iterate over the array and check if its the correct number
  * @author Arikz
  *
  */

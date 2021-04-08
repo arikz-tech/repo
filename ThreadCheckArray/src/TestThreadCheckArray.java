@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * 
+ * The main class that's ask from the user enter size of the array and number,
+ * and display the result
  * @author Arikz
  *
  */
